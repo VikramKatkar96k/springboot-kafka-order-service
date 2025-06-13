@@ -1,0 +1,35 @@
+
+create topic into kafka confluent 
+orders 
+-- above this name of topic 
+
+
+-- Post Request  http://localhost:9090/api/orders
+
+request Body or Paload
+[
+{
+  "orderId": "ORD101",
+  "userId": "USER124",
+  "amount": 1800,
+  "items": ["Mouse", "Pen"]
+},
+{
+  "orderId": "ORD102",
+  "userId": "USER125",
+  "amount": 2500,
+  "items": ["Notepad", "Earphone"]
+},
+{
+  "orderId": "ORD106",
+  "userId": "USER128",
+  "amount": 500,
+  "items": ["Mouse", "Pen"]
+},
+{
+  "orderId": "ORD109",
+  "userId": "USER15",
+  "amount": 400,
+  "items": ["Notepad", "Earphone"]
+}
+]
