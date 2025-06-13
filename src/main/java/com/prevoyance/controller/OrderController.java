@@ -31,7 +31,6 @@ public class OrderController {
     	for(OrderRequest test:orderRequest)
     	{
     		orderProducer.sendOrder(test);
-    		System.err.println();
     	}
         return "Orders placed successfully!";
     }
